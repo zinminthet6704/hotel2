@@ -42,8 +42,9 @@
 }
 
 img{
-    width: 100%;
-    height: auto;
+    width: var(--imgWidth);
+    height: var(--imgHeight);
+    padding: var(--imgPadding);
 }
 
 .roomCommerce{
@@ -51,7 +52,7 @@ img{
     max-height: var(--roomCommerceHeight);
     border: 1px solid green;
     padding: var(--roomCommercePadding);
-    margin-top: -5px; 
+
 }
 
 
@@ -93,85 +94,3 @@ div.check{
     background-color: rgba(0, 0, 0, 0.7);
     
 }
-
-
-
-
-
-input[type="button"]{
-    background-color: rgba(0,0,0,0);
-    border: 1px solid black;
-    cursor: pointer;
-    display: block;
-    outline: none;
-    padding: 15px 30px;
-    text-align: center;
-    font-family: Roboto, sans-serif;
-}
-/* custom additional styles
-author: zinminthet
-
-please don't fix the codes below without backup
-
-*/
-p.marketingText{
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-    font-weight: 300px;
-    display: block;
-    box-sizing: border-box;
-    color: rgb(92,92,92);
-    overflow-wrap: break-word;
-}
-
-h2.roomSizeCaption{
-    box-sizing: border-box;
-    color: rgb(28, 28, 28);
-    cursor: pointer;
-    display: block;
-    font-family: "Gilda Display", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 30px;
-    overflow-wrap: break-word;
-}
-
-
-.roomSizeMeasures{
-    box-sizing: border-box;
-    color: rgb(92,92,92);
-    
-    display: table-cell;
-
-    font-size: 12px;
-    font-weight: 300;
-    height: 23px; 
-    letter-spacing: 1px;
-    line-height: 12px;
-    overflow-wrap: break-word;
-    vertical-align: middle;
-}
-
-.iconImg{
-    width: 24px;
-    padding: 0px;
-    height: auto;
-    border-bottom-color: rgb(92,92,92);
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-width: 1px;
-    display: table-cell;
-    vertical-align: middle;
-
-}
-
-
-
-/* custom additional design ended 
-author: zinminthet
-
-please don't fix the above codes without backup
-
-*/
-
