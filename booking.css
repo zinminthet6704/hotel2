@@ -174,12 +174,16 @@ a{
     line-height: 11px;
     text-align: center;
     font-weight: 300;
-    float: right;
     vertical-align: middle;
     box-sizing: border-box;
     color: rgb(92,92,92);
     /* border: 1px solid green; */
     padding: 8px; 
+}
+
+a.fullinfo{
+    float: right;
+
 }
 
 
@@ -190,3 +194,92 @@ author: zinminthet
 please don't fix the above codes without backup
 
 */
+
+.pageHeading{
+    border: 1px solid green; 
+    height: 370px;
+}
+
+.pageHeadingImg{
+    display: block;
+    width: 100%;
+    height: 370px;
+}
+
+a.nextPage{
+    width: auto;
+    bottom: 1px solid black;
+    height: 10px;
+    padding: 15px 10px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    line-height: 11px;
+    text-align: right;
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+}
+
+.nextPage{
+    text-align: right;
+}
+
+.filter{
+    width: auto;
+    height: 93.42px;
+    background-color: rgb(92,92,92);
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.filter select {
+    margin: 0 auto;
+    padding: 15px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+
+select * {
+    padding: 15px;
+}
+
+
+option{
+    padding: 15px;
+    display: inline-block;
+    padding: 15px;
+
+    width: auto;
+    height: 40px;
+}
+
+
+/* testing */
+
+/* The animation code */
+/* @keyframes example { */
+    /* 0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  /* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+.check:focus.roomOverAllContainer{
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+
+
+} */ 
