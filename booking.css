@@ -161,9 +161,25 @@ h2.roomSizeCaption{
     border-image-repeat: stretch;
     border-image-slice: 100%;
     border-image-width: 1px;
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
 
+}
+
+a{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height: 11px;
+    text-align: center;
+    font-weight: 300;
+    float: right;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: rgb(92,92,92);
+    /* border: 1px solid green; */
+    padding: 8px; 
 }
 
 
@@ -174,4 +190,3 @@ author: zinminthet
 please don't fix the above codes without backup
 
 */
-
