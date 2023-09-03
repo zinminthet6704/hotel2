@@ -148,8 +148,8 @@ h2{
     max-width: 362.292px;
     max-height: 700px;
 
-    width: var(--roomMaxWidth);
-    /* height: var(--roomMaxHeight); */
+    width: var(--roomContainerMaxWidth);
+    /* height: var(--roomContainer MaxHeight); */
     height: 700px;
 
     border: 1px solid green;
@@ -164,7 +164,7 @@ img{
 .roomCommerce{
     max-width: var(--roomCommerceWidth);
     max-height: var(--roomCommerceHeight);
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: var(--roomCommercePadding);
     margin-top: -5px; 
 }
